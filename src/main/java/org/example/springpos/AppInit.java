@@ -6,7 +6,6 @@ import org.example.springpos.config.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class AppInit extends AbstractAnnotationConfigDispatcherServletInitializer {
-
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[]{WebAppRootConfig.class};

@@ -14,6 +14,7 @@ import java.util.List;
 @Entity
 @Table(name = "orders")
 public class Order {
+
     @Id
     String orderId;
     Date orderDate;

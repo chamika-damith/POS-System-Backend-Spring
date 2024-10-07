@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class CustomerDTO implements SuperDTO {
+
     String id;
     String name;
     String address;

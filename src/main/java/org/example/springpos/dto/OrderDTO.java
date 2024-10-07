@@ -12,6 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 public class OrderDTO {
+
     String orderId;
     Date orderDate;
     String cusId;

@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 @Data
 @Entity
 public class OrderItem {
+
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;

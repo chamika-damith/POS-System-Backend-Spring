@@ -10,5 +10,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 @MultipartConfig
 public class WebAppConfig {
+
 }
 

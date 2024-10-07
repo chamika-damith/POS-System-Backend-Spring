@@ -12,6 +12,7 @@ import java.util.List;
 @Data
 @Entity
 public class Item {
+
     @Id
     String id;
     String name;

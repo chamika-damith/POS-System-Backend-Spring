@@ -24,7 +24,6 @@ import java.util.List;
 @Transactional
 public class OrderServiceImpl implements OrderService {
 
-
     @Autowired
     private OrderDAO orderDAO;
 

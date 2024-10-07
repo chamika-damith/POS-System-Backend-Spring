@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class ItemDTO implements SuperDTO{
+
     String id;
     String name;
     double price;

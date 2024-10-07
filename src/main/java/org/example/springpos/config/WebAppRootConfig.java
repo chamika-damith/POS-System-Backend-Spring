@@ -24,7 +24,6 @@ import javax.sql.DataSource;
 @EnableJpaRepositories(basePackages = "org.example.springpos.dao")
 public class WebAppRootConfig {
 
-
     @Bean
     public DataSource dataSource() {
 

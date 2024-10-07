@@ -18,4 +18,5 @@ public class AppUtil {
     public static String generateOrderDetailId() {
         return "OD-"+ UUID.randomUUID();
     }
+
 }

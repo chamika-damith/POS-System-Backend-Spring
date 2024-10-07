@@ -14,7 +14,6 @@ import java.util.List;
 
 @Component
 public class Mapping {
-
     @Autowired
     private ModelMapper modelMapper;
 
